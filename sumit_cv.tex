@@ -1,0 +1,216 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage{fontawesome}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Sumit Tagadiya} \\ \vspace{1pt}
+    \small +91 7043105881 $|$
+    \href{mailto:tagadiyasumit@gmail.com}{\underline{tagadiyasumit@gmail.com}} $|$ 
+    \faLinkedinSquare \space
+    \href{https://www.linkedin.com/in/sumittagadiya/}{\underline{sumit-tagadiya}} $|$
+    \faGithub \space
+    \href{https://github.com/sumittagadiya}{\underline{sumittagadiya}} $|$
+    \href{https://sumittagadiya.medium.com/}{\underline{sumittagadiya.medium.com}}
+    
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {K J Institute of Engineering and Technology (GTU)}{Vadodara, Gujarat}
+      {Bachelors in Computer Engineering (CGPA - 8.60 Out of 10)}{Aug 2016 - May 2020}
+  \resumeSubHeadingListEnd
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Main Skills}{: Data Analysis, Machine Learning, Deep Learning, NLP, Computer Vision} \\
+     \textbf{Languages}{: Python, SQL (Postgres), JavaScript, HTML} \\
+     \textbf{Frameworks}{: Tensorflow, keras, Scikit-learn, Flask} \\
+     \textbf{Developer Tools}{: Linux, Git, Docker, Google Cloud Platform, VS Code, Heroku, AWS} \\
+     \textbf{Libraries}{: Pandas, NumPy, Matplotlib, SciPy, NLTK,BeautifulSoup}
+    }}
+ \end{itemize}
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+  
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Stack Overflow Search Engine based on Semantic meaning}}{Sept 2020 -- Oct 2020}
+          \resumeItemListStart
+            \resumeItem{Developed a Search Engine on Stackoverflow Data based on the semantic meaning of the question. When a user searches any question then the search engine would give the most similar results based on semantic meaning rather than keyword matching.}
+            \resumeItem{The main task of this project is to understand the content of what the user is trying to search for and then return the most similar results in minimal time based on the user’s query using semantic similarity.}
+            \resumeItem{Glove pre-trained vectors, TF-IDF, Gensim Word2Vec model, and Tensorflow Hub module have been used for sentence encoding. To similarity measure, Cosine similarity has used.}
+            \resumeItem{Deployed the whole project on \href{https://stackoverflow-semantic-search.herokuapp.com/}{\underline{Heroku}} and made it end to end for a better experience.}
+            \resumeItem{Published a \href{https://sumittagadiya.medium.com/stack-overflow-search-engine-based-on-semantic-meaning-e69755cf7bef}{\underline{Blog on medium}} explaining my approach to this \href{https://github.com/sumittagadiya/Stack-overflow-semantic-search-engine}{\underline{project}}}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{English to Italian Machine Translation with Vanilla and Attention Mechanism}}{Oct 2020 -- Nov 2020}
+          \resumeItemListStart
+            \resumeItem{Developed a model using Vanilla Encoder-Decoder and Attention mechanism with LSTM}
+            \resumeItem{Implemented Research paper of \href{https://arxiv.org/pdf/1409.0473.pdf}{\underline{Bahdanau's Attention}} Mechanism with three scoring functions named Dot Scoring, General Scoring, and Concat Scoring from Scratch}
+            \resumeItem{To compare the results of all these Scoring functions and vanilla Encoder-Decoder BLUE score has been used for performance measure.}
+          \resumeItemListEnd
+          
+    \resumeProjectHeading
+          {\textbf{Image Segmentation on Indian Traffic Data}}{Nov 2020 - Dec 2020}
+          \resumeItemListStart
+            \resumeItem{Implemented CANET model by referring Attention-guided Chained Context Aggregation for Semantic Segmentation \href{https://arxiv.org/pdf/2002.12041.pdf}{\underline{research paper}} from scratch.}
+            \resumeItem{For Performance measure, IOU(Intersection Over Union) Score has been used.Model will identify 21 different objects from image/video.}
+          \resumeItemListEnd
+          
+    \resumeProjectHeading
+          {\textbf{Document(Text) Classification using CNN}}{Aug 2020 - Sept 2020}
+          \resumeItemListStart
+            \resumeItem{Trained two Deep CNN models one on word level embedding and second on character level embedding.}
+            \resumeItem{In this task Data set contains 20 News groups text data so model predicts text into 20 different classes, Also Too much Preprocessing was required in this Task.}
+            \resumeItem{Pre-trained Glove Vectors with 300d has been used for text embeddings.Model built using keras functional API.}
+          \resumeItemListEnd
+    \resumeProjectHeading
+          {\textbf{CNN on CIFAR Dataset}}{July 2020 - Aug 2020}
+          \resumeItemListStart
+            \resumeItem{Implemented Densenet Model by referring Densely Connected Convolutional Networks \href{https://arxiv.org/pdf/1608.06993.pdf}{\underline{research paper}}} and trained it from scratch.
+            \resumeItem{Densenet architecture is made by 2 blocks named Dense block and Transition block. Output block contains Batch Normalization, GlobalAvgPooling followed by Softmax layer.}
+            \resumeItem{By implementing Densenet Architecture i got 90\% test accuracy which is pretty high.}
+          \resumeItemListEnd      
+    \resumeProjectHeading
+          {\textbf{Microsoft Malware Detection}}{June 2020 - July 2020}
+          \resumeItemListStart
+            \resumeItem{Implemented Multiclass classification Model using XGBoost Algorithm to classify different malware files into respected classes. There were total 9 Nine malware classes.}
+            \resumeItem{Dataset Size was too large, Almost around 200 GB. Out of which 50GB of data was bytes files and 150GB of data was asm files.}
+            \resumeItem{The main objective of this project is to minimize multiclass log loss as much as possible. I got a minimum log loss of 0.001. To get this much minimum log loss I made some high-level features like image feature from byte file and asm file etc. I have also used some feature selection techniques like the Chi-Square test etc.}
+          \resumeItemListEnd
+    
+    \resumeSubHeadingListEnd
+
+
+
+
+%-------------------------------------------
+\end{document}
